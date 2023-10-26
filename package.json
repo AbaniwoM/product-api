@@ -1,0 +1,22 @@
+{
+  "name": "product_api",
+  "version": "1.0.0",
+  "description": "this is a product api",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Michael Abaniwo",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.3.1",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "joi": "^17.11.0",
+    "json-server": "^0.17.4",
+    "mongoose": "^7.6.1",
+    "nodemon": "^3.0.1"
+  }
+}

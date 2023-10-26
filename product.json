@@ -1,0 +1,60 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "image":"https://images.pexels.com/photos/161559/background-bitter-breakfast-bright-161559.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "name":"Oranges",
+      "description": "Oranges giving the best"
+    },
+  
+    {
+      "id":2,
+      "image":"https://images.pexels.com/photos/61127/pexels-photo-61127.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "name": "Bananas",
+      "description": "Bananas giving the best"
+    },
+  
+    {
+      "id":3,
+      "image": "https://images.pexels.com/photos/1327838/pexels-photo-1327838.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "name": "Tomatoes",
+      "description": "Tomatoes at their best"
+    },
+  
+    {
+      "id": 4,
+      "image": "https://images.pexels.com/photos/693794/pexels-photo-693794.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "name": "Apples",
+      "description": "Apples at their best"
+    },
+
+    {
+      "id": 5,
+      "image": "https://images.pexels.com/photos/18682204/pexels-photo-18682204/free-photo-of-close-up-of-grapes.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "name": "Grapes",
+      "description": "Grapes giving the best feel"
+    },
+
+    {
+      "id": 6,
+      "image": "https://images.pexels.com/photos/6489663/pexels-photo-6489663.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "name": "Lemon",
+      "description": "Lemons adding great value"
+    },
+
+    {
+      "id": 7,
+      "image": "https://images.pexels.com/photos/2518893/pexels-photo-2518893.jpeg",
+      "name": "Cabbage",
+      "description": "Green vegetables at its best"
+    },
+
+    {
+      "id": 8,
+      "image": "https://images.pexels.com/photos/6157049/pexels-photo-6157049.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "name": "Avocado",
+      "description": "It only gets better with this fruit"
+    }
+  ]
+}
+
