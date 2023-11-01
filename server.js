@@ -37,11 +37,13 @@
 // app.listen(CONFIG.PORT, () => {
 //     console.log(`Server started on http://localhost:${CONFIG.PORT}`);
 // });
+const express = require('express');
+const app = express();
 const jsonServer = require('json-server');
 const server = jsonServer.create();
 const router = jsonServer.router('./product.json');
 const port = process.env.PORT||4000;
-const cors=require("cors");
+const cors = require("cors");
 
 const corsOptions ={
    origin:'*', 
@@ -49,7 +51,9 @@ const corsOptions ={
    optionSuccessStatus:200,
 }
 
-app.use(cors(corsOptions)) // Use this after the variable declaration
+app.use(cors(corsOptions));
+
+ // Use this after the variable declaration
 
 // console.log(data);
 // key={ image, name, description }
