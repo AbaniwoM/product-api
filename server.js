@@ -46,7 +46,7 @@ const port = process.env.PORT||4000;
 const cors = require("cors");
 
 const corsOptions ={
-   origin:'*', 
+   origin:'http://127.0.0.1:5173/', 
    credentials:true,            //access-control-allow-credentials:true
    optionSuccessStatus:200,
 }
