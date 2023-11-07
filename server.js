@@ -45,10 +45,10 @@ const router = jsonServer.router('./product.json');
 const port = process.env.PORT||4000;
 const cors = require("cors");
 
-const corsOptions ={
-   origin:'http://localhost.5173/', 
-   credentials:true,            //access-control-allow-credentials:true
-   optionSuccessStatus:200,
+const corsOptions = {
+   origin: '*', 
+   credentials: true,            //access-control-allow-credentials:true
+   optionSuccessStatus: 200,
 }
 
 app.use(cors(corsOptions));
@@ -62,4 +62,5 @@ server.use(router);
 server.listen(port, () => {
     console.log(`JSON Server is running on http://localhost:${port}`);
 });
+
 
